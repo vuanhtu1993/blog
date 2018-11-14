@@ -5,3 +5,7 @@
 /dev/index.html
 
 /npm-debug.log
+
+dev/
+
+.idea/
