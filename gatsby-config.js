@@ -3,12 +3,15 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    url: 'https://vuanhtu1993.github.io/blog/',
+    title: 'Blog by AnhTus',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      `Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
+      
+      from "Albert Einstein"
+      `,
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'anhtus',
     menu: [
       {
         label: 'Articles',
@@ -24,15 +27,16 @@ module.exports = {
       },
     ],
     author: {
-      name: 'AnhTus',
-      email: '#',
+      name: 'Vu Anh Tu',
+      email: 'vuanhtu1993mta@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'VuAnhTus',
+      github: 'vuanhtu1993',
       rss: '#',
       vk: '#',
     },
   },
+  pathPrefix: `/blog`,
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',

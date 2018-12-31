@@ -13,7 +13,8 @@
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "homepage": "https://vuanhtu1993.github.io/blog",
+  "repository": "https://github.com/vuanhtu1993/blog",
   "keywords": [
     "gatsby",
     "blog",
@@ -21,7 +22,7 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "AnhTus",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
