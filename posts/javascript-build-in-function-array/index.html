@@ -1,0 +1,289 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/blog/component---src-templates-post-template-jsx.ae6844d027271e0d4807.css">/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 2.5rem}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 .125rem;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}html{font-size:100}body{color:#222;line-height:1.625;font-size:1rem;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body,h1,h2,h3,h4,h5,h6{font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-weight:500}h1{font-size:2.5rem;line-height:3.25rem;margin-top:6.5rem;margin-bottom:1.625rem}h2{font-size:1.6875rem;line-height:2.4375rem}h2,h3{margin-top:3.25rem;margin-bottom:.8125rem}h3{font-size:1.375rem;line-height:1.625rem}h4{font-size:1.2rem;margin-top:2.4375rem}h4,h5{line-height:1.625rem;margin-bottom:.8125rem}h5,h6{font-size:1rem;margin-top:4.0625rem}h6{line-height:1.625rem;margin-bottom:.8125rem}img{max-width:100%;margin:inherit auto}hr,img{border:0;display:block}hr{color:#222;height:26px;margin:3.25rem auto;background-size:100% 26px;background-image:linear-gradient(180deg,transparent 1px,transparent 11px,#222 0,#222 15px,transparent 0,transparent 26px);width:6.25rem}a{color:#5d93ff;text-decoration:none}a:active,a:focus,a:hover{color:#f7a046}b,strong{font-weight:500}ul{list-style:square;margin-bottom:1.625rem}ul li{padding:0 .3125rem;margin-bottom:.625rem}p{line-height:1.625rem;margin-bottom:1.625rem}blockquote{padding:0;font-style:italic;text-align:center}figure{display:block;width:100%;height:auto}figcaption{line-height:1.21875rem;margin-top:.40625rem;color:#222;font-size:.875rem;font-style:italic;margin-bottom:0;text-align:center}.layout{max-width:66.875rem;margin-left:auto;margin-right:auto}.layout:after,.layout:before{content:"";display:table}.layout:after{clear:both}.content__inner{padding:1.5625rem 1.25rem}@media screen and (min-width:685px){figure.float-left,figure.float-right{max-width:19.375rem;padding:0 1.625rem}.float-right{float:right}.float-left{float:left}.content{width:calc(58.275% - .78125rem)}.content:nth-child(1n){float:left;margin-right:1.875rem;clear:none}.content:last-child{margin-right:0}.content:nth-child(12n){margin-right:0;float:right}.content:nth-child(12n+1){clear:both}.content__inner{padding:1.875rem 1.25rem}}@media screen and (min-width:960px){.content{width:calc(66.6% - .625rem)}.content:nth-child(1n){float:left;margin-right:1.875rem;clear:none}.content:last-child{margin-right:0}.content:nth-child(3n){margin-right:0;float:right}.content:nth-child(3n+1){clear:both}.content__inner{padding:2.5rem 2.1875rem}}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.tags__list-item-link{color:#222}.tags__list-item-link:focus,.tags__list-item-link:hover{color:#5d93ff;border-bottom:1px solid #5d93ff}.categories__list-item-link{color:#222}.categories__list-item-link:focus,.categories__list-item-link:hover{color:#5d93ff;border-bottom:1px solid #5d93ff}.post-single__inner{max-width:59.0625rem;padding:0 .9375rem;margin:0 auto}.post-single__title{font-size:2rem;max-width:40rem;font-weight:600;text-align:center;line-height:2.68125rem;margin:1.625rem auto 0}.post-single__body figure{margin-bottom:1.625rem}.post-single__body figure blockquote{font-style:italic;text-align:center;margin-top:0;padding:1.625rem 0}.post-single__body figure blockquote p{max-width:40rem;font-size:1.6817rem;margin-top:0;margin-bottom:1.625rem;line-height:2.4375rem}.post-single__body a{text-decoration:underline}.post-single__body .gatsby-highlight{max-width:40rem;margin-left:.9375rem;margin-right:.9375rem;margin-bottom:1.625rem}.post-single__body :not(div){max-width:40rem;margin-left:auto;margin-right:auto}.post-single__footer{max-width:40rem;line-height:1.625rem;margin:1.625rem .9375rem 3.25rem}.post-single__footer-text a{text-decoration:underline}.post-single__date{max-width:40rem;margin-left:auto;margin-right:auto}.post-single__tags{margin-bottom:.8125rem}.post-single__tags-list{list-style:none;margin:0 -.3125rem;padding:0}.post-single__tags-list-item{display:inline-block;margin:.625rem .3125rem}.post-single__tags-list-item-link{background:#ebebeb;text-decoration:none;border:0;border-radius:.1875rem;color:#555;line-height:1.625;padding:.5rem 1rem}.post-single__tags-list-item-link:focus,.post-single__tags-list-item-link:hover{color:#222;background:#dfdfdf;border:0}.post-single__home-button{display:block;margin-left:auto;margin-right:auto;max-width:5.625rem;font-size:1rem;padding:0 1rem;height:35px;line-height:2.1875rem;text-align:center;color:#555;background:#ebebeb;font-weight:400;border-radius:.1875rem;margin-top:1.625rem}.post-single__home-button:focus,.post-single__home-button:hover{color:#222;background:#dfdfdf;border:0}@media screen and (min-width:685px){.post-single__body .gatsby-highlight,.post-single__footer{margin-left:auto;margin-right:auto}}@media screen and (min-width:960px){.post-single__inner{padding:0}.post-single__title{font-size:3rem;line-height:3.65625rem;margin-top:3.65625rem;margin-bottom:2.4375rem}.post-single__body,.post-single__body p{font-size:1.125rem;line-height:1.82813rem;margin-bottom:1.82813rem}.post-single__home-button{position:fixed;max-width:auto;margin:0;top:30px;left:30px}}</style><meta name="generator" content="Gatsby 2.0.78"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet"/><link rel="sitemap" type="application/xml" href="/blog/sitemap.xml"/><title data-react-helmet="true">Some build-in function for Array object in Javascript - Blog by AnhTus</title><meta data-react-helmet="true" name="description" content="Some javascript useful build-in for array object. Actually understanding build-in JS function very first. It&#x27;s very important to develop and implement algorithm"/><link as="script" rel="preload" href="/blog/component---src-templates-post-template-jsx-47ead06001fe31c7c2d1.js"/><link as="script" rel="preload" href="/blog/app-0a1dcd4a3fcd6290c1da.js"/><link as="script" rel="preload" href="/blog/3-01c3c00ac5b9b2f55b38.js"/><link as="script" rel="preload" href="/blog/0-df783419e7299b1afa44.js"/><link as="script" rel="preload" href="/blog/webpack-runtime-f1d2a3c6dd8f22782d80.js"/><link as="fetch" rel="preload" href="/blog/static/d/757/path---posts-javascript-build-in-function-array-d-79-a51-eMTR1yokbESNH4PjT7fAVE4cGk.json" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="layout"><div><div><div><a class="post-single__home-button" href="/blog/">All Articles</a></div><div class="post-single"><div class="post-single__inner"><h1 class="post-single__title">Some build-in function for Array object in Javascript</h1><div class="post-single__body"><h2>Map</h2>
+<ul>
+<li>
+<p>Nếu tôi có 1 mảng và tôi muốn xử lý từng biến trong mảng theo cùng 1 cách, trả về các giá trị sau xử lý (số lượng đúng bằng số lượng phần tử ban đầu của mảng) thì tôi sẽ sử dụng map.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>
+<span class="token function">constructor</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"dog"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"rhino"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"bird"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"cat"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> arrMap <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+obj<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"hi"</span> <span class="token operator">+</span> obj<span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+<span class="token comment">// Phai co return, nhung cai gi return se dc gan vao mang arrMap</span>
+<span class="token keyword">return</span> obj<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<h2>Filter</h2>
+</li>
+<li>
+<p>Nếu tôi đã có 1 mảng nhưng tôi chỉ muốn lấy các phần tử theo 1 tiêu chuẩn nhất định, tôi sử dụng filter.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>
+<span class="token function">constructor</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span> age<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"dog"</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"rhino"</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"bird"</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token string">"cat"</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> arrFilter <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>obj<span class="token punctuation">.</span>age <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment">// nhung obj nao return true se duoc gan vao arrFilter</span>
+<span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<h4>Sử dụng filter để query nhiều trường trong object</h4>
+</li>
+<li>
+<p>Lưu ý syntax của filter trong doc</p>
+<blockquote>
+<p>var newArray = arr.filter(callback(element[, index[, array]]), argument2)</p>
+</blockquote>
+</li>
+<li>
+<p>Trong đó argument2 sẽ được dùng là this trong callback</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> users <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">'John'</span><span class="token punctuation">,</span>email<span class="token punctuation">:</span> <span class="token string">'johnson@mail.com'</span><span class="token punctuation">,</span>age<span class="token punctuation">:</span> <span class="token number">25</span><span class="token punctuation">,</span>address<span class="token punctuation">:</span> <span class="token string">'USA'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+	     <span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">'Tom'</span><span class="token punctuation">,</span>email<span class="token punctuation">:</span> <span class="token string">'tom@mail.com'</span><span class="token punctuation">,</span>age<span class="token punctuation">:</span> <span class="token number">35</span><span class="token punctuation">,</span>address<span class="token punctuation">:</span> <span class="token string">'England'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+	     <span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">'Mark'</span><span class="token punctuation">,</span>email<span class="token punctuation">:</span> <span class="token string">'mark@mail.com'</span><span class="token punctuation">,</span>age<span class="token punctuation">:</span> <span class="token number">28</span><span class="token punctuation">,</span>address<span class="token punctuation">:</span> <span class="token string">'England'</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> query <span class="token operator">=</span> <span class="token punctuation">{</span>address<span class="token punctuation">:</span> <span class="token string">"England"</span><span class="token punctuation">,</span> name<span class="token punctuation">:</span> <span class="token string">"Mark"</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">search</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">every</span><span class="token punctuation">(</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span> <span class="token operator">=></span> user<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> result <span class="token operator">=</span> users<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>search<span class="token punctuation">,</span> query<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+</li>
+</ul>
+<h2>Reduce</h2>
+<ul>
+<li>
+<p>Nếu tôi đã có 1 mảng nhưng tôi muốn sử dụng các giá trị trong mảng để tạo ra vài thứ khác hoàn toàn mới, tôi sử dụng reduce.</p>
+<blockquote>
+<p>Syntax arr.reduce(callback, [initialValue])</p>
+</blockquote>
+</li>
+</ul>
+<p>Trong đó callback là một function dạng như sau:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> cb <span class="token operator">=</span> <span class="token punctuation">(</span>accumulator<span class="token punctuation">,</span> currentValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span><span class="token punctuation">.</span><span class="token keyword">do</span> sth
+  <span class="token keyword">return</span> accumulator<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>accumulator là phần tích lũy, function cb return là cái gì thì nó sẽ là accumulator của vòng lặp sau (tức là cb không return thì accumulator sẽ trả về undefined)</li>
+<li>currentValue là các item trong mảng (duyệt từ đầu đến cuối mảng)</li>
+<li>
+<p>initial là giá trị ban đầu của accumulator</p>
+<blockquote>
+<p>Nếu không có initialValue thì accumulator nhận giá trị đầu của mảng và currentValue nhận giá trị thứ 2 của mảng</p>
+</blockquote>
+<h4>Example</h4>
+</li>
+<li>
+<p>Flatten Array</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre></div>
+</li>
+</ul>
+<p>function flatten(arr) {
+return arr.reduce((accumulator, currentValue) => {
+accumulator = […accumulator, …currentValue];
+return accumulator;
+}, [])
+}
+console.log(flatten(arr));
+}</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">- Counting instance of value in object (đếm số lần xuất hiện của phần tử trong mảng)
+```javascript
+let names = [&#39;Alice&#39;, &#39;Bob&#39;, &#39;Tiff&#39;, &#39;Bruce&#39;, &#39;Alice&#39;];
+
+let result = names.reduce((accumulator, currentValue) =&gt; {
+	if (currentValue in accumulator) {
+		accumulator[currentValue]++;
+	} else {
+		accumulator[currentValue] = 1;
+	}
+	return accumulator;
+}, {});
+console.log(result);</code></pre></div>
+<ul>
+<li>
+<p>GroupBy by property</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>bestAction<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+</li>
+</ul>
+<p>let people = [
+{ name: ‘Alice’, age: 21 },
+{ name: ‘Max’, age: 20 },
+{ name: ‘Jane’, age: 20 }
+];</p>
+<p>function groupBy(objArr, property) {
+return objArr.reduce((accumulator, currentValue) => {
+let key = currentValue[property];
+if (!accumulator[key]) {
+accumulator[key] = [];
+}
+accumulator[key].push(currentValue);
+return accumulator;
+}, {});
+}</p>
+<p>console.log(groupBy(people, “age”));</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">- Revome duplicate value in array
+```javascript
+let arr = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4];
+//First way
+function removeDuplicateItem(arr) {
+	return arr.reduce((accumulator, currentValue) =&gt; {
+		if (!accumulator.includes(currentValue)) {
+			accumulator.push(currentValue);
+		}
+		return accumulator;
+	}, []);
+}
+//Second way
+function removeDuplicateItem(arr) {
+	return arr.sort().reduce((accumulator, currentValue) =&gt; {
+		let length = accumulator.length;
+		if (length === 0 || accumulator[length - 1] !== currentValue) {
+			console.log(length, currentValue);
+			accumulator.push(currentValue);
+		}
+		return accumulator;
+	}, []);
+}
+
+console.log(removeDuplicateItem(arr));</code></pre></div>
+<ul>
+<li>
+<p>Remove duplicate ARRAY in array</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">arr <span class="token operator">=</span> <span class="token punctuation">[</span> <span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'4'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'4'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'4'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">[</span> <span class="token string">'0'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">,</span> <span class="token string">'8'</span> <span class="token punctuation">]</span> <span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> trips <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span>accumulator<span class="token punctuation">,</span> currentValue<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>accumulator<span class="token punctuation">.</span>length <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>currentValue<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> accumulator<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>currentValue<span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>accumulator<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        count <span class="token operator">++</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>count <span class="token operator">==</span> accumulator<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>accumulator<span class="token punctuation">,</span> currentValue<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> accumulator<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token constant">OUTPUT</span><span class="token punctuation">:</span> trips <span class="token comment">// [ [ '0', '3', '4', '8' ], [ '0', '3', '8' ] ]</span></code></pre></div>
+</li>
+</ul>
+<h2>Một số hàm tổng hợp</h2>
+<h3>I. Chunk</h3>
+<blockquote>
+<p>Chuyển 1 mảng thành 1 mảng chứa các mảng con nhỏ hơn với số lượng element định sẵn</p>
+</blockquote>
+<ul>
+<li>
+<p>Chúng ta sẽ dùng Array.from() để tạo mảng mới có số lượng element khớp với size ta mong muốn.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token constant">S</span>ử dụng Array<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token punctuation">)</span> để map các element của array mới thành <span class="token number">1</span> mảng có length <span class="token operator">=</span> size</code></pre></div>
+</li>
+</ul>
+<p>const chunk = (arr, size) =>
+Array.from({ length: Math.ceil(arr.length / size) }, (_n, i) =>
+arr.slice(i * size, i * size + size)
+);</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">### II. Compact
+&gt; Loại bỏ các giá trị false, null, 0, &quot;&quot;, undefined, NaN khỏi mảng
+
+- Sử dụng Array.filter() để filter các giá trị false, null, 0, &quot;&quot;, undefined, NaN
+```javascript
+const compact = arr =&gt; arr.filter(Boolean);
+Examples:
+
+compact([0, 1, false, 2, &#39;&#39;, 3, &#39;a&#39;, &#39;e&#39; * 23, NaN, &#39;s&#39;, 34]); // [ 1, 2, 3, &#39;a&#39;, &#39;s&#39;, 34 ]</code></pre></div>
+<h3>III. CountOccurrences</h3>
+<blockquote>
+<p>Đếm số lần xuất hiện của 1 giá trị trong 1 mảng</p>
+</blockquote>
+<ul>
+<li>
+<p>Sử dụng Array.reduce() để tăng giá trị biến đêm lên khi gặp giá trị đó trong mảng</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">countOccurrences</span> <span class="token operator">=</span> <span class="token punctuation">(</span>arr<span class="token punctuation">,</span> value<span class="token punctuation">)</span> <span class="token operator">=></span> arr<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> v<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>v <span class="token operator">===</span> value <span class="token operator">?</span> a <span class="token operator">+</span> <span class="token number">1</span> <span class="token punctuation">:</span> a <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Examples<span class="token punctuation">:</span></code></pre></div>
+</li>
+</ul>
+<p>countOccurrences([1, 1, 2, 1, 2, 3], 1); // 3</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">### IV: Flatten
+&gt; Chuyển tất cả các mảng con trong 1 mảng thành 1 mảng thống nhất
+```javascript
+const flatten = arr =&gt; [].concat(...arr.map(v =&gt; (Array.isArray(v) ? flatten(v) : v)));
+Examples:
+
+flatten([1, [2], [[3], 4], 5]); // [1,2,3,4,5]</code></pre></div>
+<h3>V: isSorted</h3>
+<blockquote>
+<p>Trả về 1 nếu array đã được sort theo ascending order, trả về -1 nếu array đã được sort theo descending order và trả về 0 nếu array chưa được sort</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">isSorted</span> <span class="token operator">=</span> arr <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> direction <span class="token operator">=</span> arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">></span> arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">?</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> <span class="token punctuation">[</span>i<span class="token punctuation">,</span> val<span class="token punctuation">]</span> <span class="token keyword">of</span> arr<span class="token punctuation">.</span><span class="token function">entries</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">===</span> arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> direction<span class="token punctuation">;</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>val <span class="token operator">-</span> arr<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">*</span> direction <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+Examples<span class="token punctuation">:</span>
+
+<span class="token function">isSorted</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1</span>
+<span class="token function">isSorted</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1</span>
+<span class="token function">isSorted</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// -1</span>
+<span class="token function">isSorted</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 0</span></code></pre></div>
+<h3>VI: Union</h3>
+<blockquote>
+<p>Trả về 1 mảng mới chưa tất cả các phần tử có trong 2 mảng đã uniq</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">union</span> <span class="token operator">=</span> <span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token operator">=></span> Array<span class="token punctuation">.</span><span class="token keyword">from</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token operator">...</span>a<span class="token punctuation">,</span> <span class="token operator">...</span>b<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Examples<span class="token punctuation">:</span>
+
+<span class="token function">union</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1,2,3,4]</span></code></pre></div>
+<h3>VII: Take</h3>
+<blockquote>
+<p>Trả về 1 mảng chứa số phần tử yều cầu tính từ phần tử đầu tiên</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">take</span> <span class="token operator">=</span> <span class="token punctuation">(</span>arr<span class="token punctuation">,</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">=></span> arr<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Examples<span class="token punctuation">:</span>
+
+<span class="token function">take</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1]</span>
+<span class="token function">take</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// []</span>
+<span class="token function">take</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1,2]</span>
+<span class="token function">take</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1,2,3,4,5,6,7,8]</span></code></pre></div></div><div class="post-single__date"><em>Published <!-- -->1 Jan 2019</em></div></div><div class="post-single__footer"><div class="post-single__tags"><ul class="post-single__tags-list"><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/javascript/">Javascript</a></li><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/web-development/">Web Development</a></li><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/array-object/">Array Object</a></li></ul></div><hr/><p class="post-single__footer-text">Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
+      
+      from &quot;Albert Einstein&quot;
+      <a href="https://twitter.com/VuAnhTus" target="_blank" rel="noopener noreferrer"><br/> <strong>Vu Anh Tu</strong> on Twitter</a></p><div><div><div id="disqus_thread"></div></div></div></div></div></div></div></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-73379983-2', 'auto', {});
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-post-template-jsx","jsonName":"posts-javascript-build-in-function-array-d79","path":"/posts/javascript-build-in-function-array/"};window.dataPath="757/path---posts-javascript-build-in-function-array-d-79-a51-eMTR1yokbESNH4PjT7fAVE4cGk";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-0a1dcd4a3fcd6290c1da.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-cf314d16f68ddd8e82ad.js"],"component---src-templates-page-template-jsx":["/component---src-templates-page-template-jsx.9197ae8e172ca69c580f.css","/component---src-templates-page-template-jsx-554904577c33db33c810.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx.ae6844d027271e0d4807.css","/component---src-templates-post-template-jsx-47ead06001fe31c7c2d1.js"],"component---src-templates-tag-template-jsx":["/component---src-templates-tag-template-jsx.cc7a98d1e2274506d081.css","/component---src-templates-tag-template-jsx-f930f69a0151209921bd.js"],"component---src-templates-category-template-jsx":["/component---src-templates-category-template-jsx.cc7a98d1e2274506d081.css","/component---src-templates-category-template-jsx-f643f0e926c0401611e1.js"],"component---src-pages-404-jsx":["/component---src-pages-404-jsx-4b98d6662bbc0cfa352b.js"],"component---src-pages-categories-jsx":["/component---src-pages-categories-jsx-a7f3e83defbdc34493c9.js"],"component---src-pages-index-jsx":["/component---src-pages-index-jsx.cc7a98d1e2274506d081.css","/component---src-pages-index-jsx-e2e2490636ceebc7577f.js"],"component---src-pages-tags-jsx":["/component---src-pages-tags-jsx-d599fda71921e9963dff.js"],"pages-manifest":["/pages-manifest-3ead59cbb1a8f6fa3990.js"]};/*]]>*/</script><script src="/blog/webpack-runtime-f1d2a3c6dd8f22782d80.js" async=""></script><script src="/blog/0-df783419e7299b1afa44.js" async=""></script><script src="/blog/3-01c3c00ac5b9b2f55b38.js" async=""></script><script src="/blog/app-0a1dcd4a3fcd6290c1da.js" async=""></script><script src="/blog/component---src-templates-post-template-jsx-47ead06001fe31c7c2d1.js" async=""></script></body></html>
