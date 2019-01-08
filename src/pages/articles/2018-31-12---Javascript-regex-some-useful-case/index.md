@@ -1,6 +1,6 @@
 ---
 title: Javascript regular expression
-date: "2018-12-31T17:40:22.000Z"
+date: "2018-12-31T00:00:00.000Z"
 layout: post
 draft: false
 path: "/posts/javascript-regex-some-useful-case/"
@@ -46,44 +46,64 @@ Một trong những nhiệm vụ phổ biến nhất đối với một nhà ph�
 Tương tự như một địa chỉ email là địa chỉ IP - được sử dụng để xác định một máy tính cụ thể truy cập Internet. Biểu thức chính quy này sẽ kiểm tra một chuỗi xem nó có tuân theo cú pháp địa chỉ IPv4 hay không.
 
 #### 5. Địa chỉ IPv6
-(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))
 
+```javascript
+    (([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))
+```
 Hoặc có thể bạn sẽ muốn kiểm tra một địa chỉ theo cú pháp IPv6 mới hơn với đoạn regex nâng cao hơn này. Sự khác biệt là rất nhỏ mặc dù nó quan trọng trong quá trình phát triển.
 
 #### 6. Dấu phân cách hàng nghìn
-/\d{1,3}(?=(\d{3})+(?!\d))/g
+
+```javascript
+    /\d{1,3}(?=(\d{3})+(?!\d))/g
+```
 
 Mã regex này hoạt động trên bất kỳ số nào và sẽ áp dụng bất cứ dấu phân cách nào bạn chọn cho mỗi chữ số thứ ba phân tách thành hàng ngàn, hàng triệu,...
 
 #### 7. Thêm HTTP vào trước liên kết
-if (!s.match(/^[a-zA-Z]+:\/\//))
-{
-    s = 'http://' + s;
-}
+
+```javascript
+    if (!s.match(/^[a-zA-Z]+:\/\//))
+    {
+        s = 'http://' + s;
+    }
+```
 Cho dù bạn đang làm việc trong JavaScript, Ruby hay PHP, biểu thức này có thể tỏ ra rất hữu ích. Nó sẽ kiểm tra bất kỳ chuỗi URL nào để xem nếu nó có tiền tố HTTP/HTTPS hay không, và nếu không, thêm vào trước chuỗi đó cho phù hợp.
 
 #### 8. Lấy tên miền từ URL
-/https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
+
+```javascript
+    /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
+```
 
 Mỗi tên miền trang web đều chứa giao thức ở đầu (HTTP hoặc HTTPS) và đôi khi có tên miền phụ với đường dẫn trang bổ sung. Bạn có thể sử dụng đoạn regex này để cắt qua tất cả những điều đó và chỉ trả lại tên miền.
 
 #### 9. Sắp xếp các từ khóa bằng cách đếm số từ
-^[^\s]*$        matches exactly 1-word keyword
-^[^\s]*\s[^\s]*$    matches exactly 2-word keyword
-^[^\s]*\s[^\s]*     matches keywords of at least 2 words (2 and more)
-^([^\s]*\s){2}[^\s]*$    matches exactly 3-word keyword
-^([^\s]*\s){4}[^\s]*$    matches 5-words-and-more keywords (longtail)
+
+```javascript
+    ^[^\s]*$      //  matches exactly 1-word keyword
+    ^[^\s]*\s[^\s]*$  //  matches exactly 2-word keyword
+    ^[^\s]*\s[^\s]*   //  matches keywords of at least 2 words (2 and more)
+    ^([^\s]*\s){2}[^\s]*$ //   matches exactly 3-word keyword
+    ^([^\s]*\s){4}[^\s]*$ //   matches 5-words-and-more keywords (longtail)
+```
 Những ai dùng Google Analytics và Webmaster Tools sẽ thực sự thích biểu thức chính quy này. Nó có thể sắp xếp các từ khoá dựa trên số các từ được sử dụng trong một tìm kiếm.
 
 Đây có thể là số lượng cụ thể (tức là chỉ có 5 từ) hoặc nó có thể phù hợp với một loạt các từ (tức là 2 hoặc nhiều hơn). Khi được sử dụng để sắp xếp và phân tích dữ liệu, nó là một trong những biểu thức chính quy mạnh mẽ.
 
 #### 10. Tìm một chuỗi Base64 hợp lệ trong PHP
-\?php[ \t]eval\(base64_decode\(\'(([A-Za-z0-9+/]{4})*([A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{2}==)?){1}\'\)\)\;
+
+```javascript
+    \?php[ \t]eval\(base64_decode\(\'(([A-Za-z0-9+/]{4})*([A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{2}==)?){1}\'\)\)\;
+```
 
 Nếu bạn là một nhà phát triển PHP thì đôi khi bạn có thể cần phân tích qua code để tìm kiếm các đối tượng nhị phân đã mã hóa Base64 (ví dụ như tìm shell được giấu trong một tập tin PHP chẳng hạn). Đoạn regex này có thể áp dụng với tất cả code PHP và sẽ kiểm tra bất cứ chuỗi Base64 nào đang tồn tại.
 
 #### 11. Xác thực số điện thoại
-^\+?\d{1,3}?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$
+
+```javascript
+    ^\+?\d{1,3}?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$
+```
 
 Ngắn gọn, ngọt ngào và đi thẳng vào vấn đề. Đoạn regex này sẽ xác thực bất cứ cú pháp số điện thoại nào dựa trên phong cách số điện thoại Mỹ.
 
