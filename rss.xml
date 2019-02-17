@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Jan 2019 16:27:14 GMT</lastBuildDate><item><title><![CDATA[Some build-in function for Array object in Javascript]]></title><description><![CDATA[Some javascript useful build-in for array object. Actually understanding build-in JS function very first. It's very important to develop and implement algorithm]]></description><link>https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Map&lt;/h2&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Feb 2019 19:32:21 GMT</lastBuildDate><item><title><![CDATA[CRAP design fundamental]]></title><description><![CDATA[CRAP design fundamental for beautiful life]]></description><link>https://vuanhtu1993.github.io/blog//posts/CRAP-fundamental-design/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/CRAP-fundamental-design/</guid><pubDate>Mon, 18 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. What is the Graphic Design ?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Graphic design is process of visual communication and problem-solving using one or more of typography, photography and illustration
+GD được chia thành 2 phần là graphic và design&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Graphic là visual (trực quan) là sự thể hiện các thành phần cơ bản qua các công việc như vẽ, đổ màu, viết chữ, sắp xếp các thành phần cơ bản để thể hiện đươc ý tưởng của nội dung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Design: là việc thiết kế cách nhìn, phương thức vật trước khi tạo ra chúng, design là thể hiện sự sáng tạo, giải quyết vấn đề và tính thực tiễn của bản vẽ
+Design principles gồm có: Contract, Alignment, Repetition, Proximity, Hierarchy, Balance, Simplicity và Functions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Khi kết họp các thành phần cở bản của Graphic: Line, Shape, Color, Texture, Space, Form, Typography cùng với các Design principles ta sẽ được GD&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tóm lại: GD không phải là tạo ra thứ gì đó đẹp, làm post, icon mà GD là việc sắp xếp, tổ chức và thể hiện thông tin thông qua quá trình sáng tạo cho từng chức năng cụ thể
+Để làm được như vậy càn phải hiểu nội dung muốn truyền đạt là gì, hiểu thông tin, &lt;/p&gt;
+&lt;h3&gt;2. Graphic Elements&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Là các thành phần cơ bản để tạo ra một bản thiết kế&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Line&lt;/h4&gt;
+&lt;h3&gt;3. Principles of design&lt;/h3&gt;
+&lt;h4&gt;Contract&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The difference between lights and darks in the image&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make it stand out: Attract attention to the visual without overdoing it
+*Balance your elements: Make the important things more prominent, and the less important things less prominent&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Repetition&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Similar elements: similar shapes, word, themes or pattern&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Alignment&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;All elements should line up &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Proximity&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Things that are related should be grouped together, things are not related should be separated&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Some build-in function for Array object in Javascript]]></title><description><![CDATA[Some javascript useful build-in for array object. Actually understanding build-in JS function very first. It's very important to develop and implement algorithm]]></description><link>https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Map&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Nếu tôi có 1 mảng và tôi muốn xử lý từng biến trong mảng theo cùng 1 cách, trả về các giá trị sau xử lý (số lượng đúng bằng số lượng phần tử ban đầu của mảng) thì tôi sẽ sử dụng map.&lt;/p&gt;
