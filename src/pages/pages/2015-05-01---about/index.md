@@ -3,11 +3,19 @@ title: "About me"
 layout: page
 path: "/about"
 ---
+Họ tên: Vũ Anh Tú <br/>
+Sinh ngày: 20-06-1993 <br/>
+Sở thích: thích đồ công nghệ, đọc sách khoa học, tìm hiểu về những công nghệ <br/>
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Tóm tắt quá trình học tập: <br/>
+Đại học: HV kĩ thuật quân sự - chuyên ngành viễn thông <br/>
+Fsoft Academy: JS và các framework JS <br/>
+Cao học: HV kĩ thuật quân sự - chuyên ngành hệ thống thông  <br/>
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+![](./anhtus.jpg)
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+*Share to be shared là phương châm công việc của tôi*
+
+
+
