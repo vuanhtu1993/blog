@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/webpack-and-style-loader/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/web-development/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/javascript-build-in-function-array/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/web-development/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/array-object/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/CRAP-fundamental-design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/ui-ux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/ui-ux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/javascript-regex-some-useful-case/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/regex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

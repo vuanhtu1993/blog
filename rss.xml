@@ -1,52 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Feb 2019 19:32:21 GMT</lastBuildDate><item><title><![CDATA[CRAP design fundamental]]></title><description><![CDATA[CRAP design fundamental for beautiful life]]></description><link>https://vuanhtu1993.github.io/blog//posts/CRAP-fundamental-design/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/CRAP-fundamental-design/</guid><pubDate>Mon, 18 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. What is the Graphic Design ?&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Graphic design is process of visual communication and problem-solving using one or more of typography, photography and illustration
-GD được chia thành 2 phần là graphic và design&lt;/p&gt;
-&lt;/blockquote&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Mar 2019 04:12:54 GMT</lastBuildDate><item><title><![CDATA[Webpack and style-loader for React developer]]></title><description><![CDATA[More understanding about webpack, especially style-loader, why we need to use them]]></description><link>https://vuanhtu1993.github.io/blog//posts/webpack-and-style-loader/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/webpack-and-style-loader/</guid><pubDate>Sun, 10 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Webpack là gì ?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Graphic là visual (trực quan) là sự thể hiện các thành phần cơ bản qua các công việc như vẽ, đổ màu, viết chữ, sắp xếp các thành phần cơ bản để thể hiện đươc ý tưởng của nội dung&lt;/p&gt;
+&lt;p&gt;Chắc hẳn bạn là người mới làm quen với front-end sử dụng các library hoặc framework js sẽ thường có các câu hỏi
+như là nó để làm gì, taị sao phải phức tạp nó ên như thế…&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Design: là việc thiết kế cách nhìn, phương thức vật trước khi tạo ra chúng, design là thể hiện sự sáng tạo, giải quyết vấn đề và tính thực tiễn của bản vẽ
-Design principles gồm có: Contract, Alignment, Repetition, Proximity, Hierarchy, Balance, Simplicity và Functions&lt;/p&gt;
+&lt;p&gt;Definition 1: &lt;code class=&quot;language-text&quot;&gt;Webpack&lt;/code&gt; là một &lt;code class=&quot;language-text&quot;&gt;module loader&lt;/code&gt; cho javascript&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Khi kết họp các thành phần cở bản của Graphic: Line, Shape, Color, Texture, Space, Form, Typography cùng với các Design principles ta sẽ được GD&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tóm lại: GD không phải là tạo ra thứ gì đó đẹp, làm post, icon mà GD là việc sắp xếp, tổ chức và thể hiện thông tin thông qua quá trình sáng tạo cho từng chức năng cụ thể
-Để làm được như vậy càn phải hiểu nội dung muốn truyền đạt là gì, hiểu thông tin, &lt;/p&gt;
-&lt;h3&gt;2. Graphic Elements&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Là các thành phần cơ bản để tạo ra một bản thiết kế&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4&gt;Line&lt;/h4&gt;
-&lt;h3&gt;3. Principles of design&lt;/h3&gt;
-&lt;h4&gt;Contract&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The difference between lights and darks in the image&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make it stand out: Attract attention to the visual without overdoing it
-*Balance your elements: Make the important things more prominent, and the less important things less prominent&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Definition 2: &lt;code class=&quot;language-text&quot;&gt;module loader&lt;/code&gt; là một công cụ để quản lí &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; của các thư viện js, merge chúng tại với nhau
+để tạo ra một hoặc một vài file bundle&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tại sao lại cần dùng module loader: Hiện tại thế giới front-end không giống như là HTML, CSS, JQuery là
+cân được thế giới như ngày xưa nữa. Khi thực hiện một dự án React, Vue hay Angular chúng ta phải sử dụng
+rất nhiều các thư viện khác mà cứ để vào thẻ &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script/&amp;gt;&lt;/code&gt; như trước chắc chắn là ko ổn cũng như hiệu năng&lt;br&gt;
+bị hạn chế =&gt; Module loader ra đời&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Repetition&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Definition 3: &lt;code class=&quot;language-text&quot;&gt;Loader&lt;/code&gt; nà gì?. Là những thư viện mà webpack cho phép can thiệp trước khi &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; files.
+Cho phép không chỉ bundle js files mà cả nhưng static như css, image … (Vậy nghĩa là muốn bundle cái gì
+thì làm ơn install loader cái đấy vào nhá)
+VD một số Loader: &lt;code class=&quot;language-text&quot;&gt;style-loader&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;babel-loader&lt;/code&gt; max phổ biến &lt;code class=&quot;language-text&quot;&gt;file-loader&lt;/code&gt;…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;babel-loader: làm nhiệm vụ transpile ES6 -&gt; ES5 vậy muốn bundle js thì cho web hiểu thì cần babel-loader
+chạy trước webpack (giờ còn ai không viết es6 nữa giơ tay nào để bỏ bố cái thằng này đi)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;style-loader: Như đã nói ở phần định nghĩa loader, style loader là một thư viện nhằm nâng cao khả năng của
+webpack không chỉ bundle js mà còn bundle cả style (đơn giản là nhét vào thẻ s)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;file-loader: tượng tự như style-loader, nhưng là để bundle static file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sass/scss-loader: Lại là một thư viện dể tiền sử lí trước style-loader&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Similar elements: similar shapes, word, themes or pattern&lt;/li&gt;
+&lt;li&gt;sass-loader transforms Sass thành CSS.&lt;/li&gt;
+&lt;li&gt;css-loader parses CSS vào JavaScript và resolve dependencies.&lt;/li&gt;
+&lt;li&gt;style-loader chèn CSS vào bên trong thẻ &lt;style&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;Alignment&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;All elements should line up &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Proximity&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Things that are related should be grouped together, things are not related should be separated&lt;/li&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Some build-in function for Array object in Javascript]]></title><description><![CDATA[Some javascript useful build-in for array object. Actually understanding build-in JS function very first. It's very important to develop and implement algorithm]]></description><link>https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/javascript-build-in-function-array/</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Map&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
