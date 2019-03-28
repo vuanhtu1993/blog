@@ -6,7 +6,7 @@ draft: false
 path: "/posts/mongo-command-beginner/"
 category: "MongoDB"
 tags:
-  - "NodeJS
+  - "NodeJS"
   - "Web API"
   - "Express"
 description: "Some useful command to work with mongoDB for beginner, let's get started"

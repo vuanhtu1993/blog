@@ -25,6 +25,10 @@ module.exports = {
         label: 'Contact me',
         path: '/contact/',
       },
+      {
+        label: 'Test demo',
+        path: '/test-demo/',
+      },
     ],
     author: {
       name: 'Vu Anh Tu',
