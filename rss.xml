@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 28 Mar 2019 23:57:51 GMT</lastBuildDate><item><title><![CDATA[Some mongoDB command for beginner]]></title><description><![CDATA[Some useful command to work with mongoDB for beginner, let's get started]]></description><link>https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</guid><pubDate>Fri, 29 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. Log Into MongoDB&lt;/h3&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 03 Apr 2019 06:59:42 GMT</lastBuildDate><item><title><![CDATA[Some common command for anaconda]]></title><description><![CDATA[There are some conda command must know]]></description><link>https://vuanhtu1993.github.io/blog//posts/anaconda-common-command/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/anaconda-common-command/</guid><pubDate>Wed, 03 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Anaconda common command&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;conda info —envs : lists all environments&lt;/li&gt;
+&lt;li&gt;source activate &lt;env name&gt; : activate an environment&lt;/li&gt;
+&lt;li&gt;source deactivate: deactivate an environment&lt;/li&gt;
+&lt;li&gt;conda list : list all packages installed&lt;/li&gt;
+&lt;li&gt;conda create —name &lt;env name&gt; python=3 astroid babel : create new environment, specify version of python, and install packages&lt;/li&gt;
+&lt;li&gt;WINDOWS NOTE: SOURCE is not recognized. When deactivating and activating in the anaconda command prompt, skip ‘source’ and just type ‘deactivate’ or ‘activate’ depending on what you are trying to do.&lt;/li&gt;
+&lt;li&gt;conda env export &gt; environment.yml: export conda environment requirements list to a file&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Some mongoDB command for beginner]]></title><description><![CDATA[Some useful command to work with mongoDB for beginner, let's get started]]></description><link>https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</guid><pubDate>Fri, 29 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. Log Into MongoDB&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mongo -u &amp;lt;username&amp;gt; -p &amp;lt;password&amp;gt; --authenticationDatabase &amp;lt;dbname&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Câu lệnh được sử dụng để xác thực vào db ở local&lt;/p&gt;
 &lt;h3&gt;2. Show All Databases&lt;/h3&gt;
