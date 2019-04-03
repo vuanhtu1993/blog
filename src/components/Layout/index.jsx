@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import {Link} from 'gatsby'
+
 import '../../assets/scss/init.scss'
 
 class Layout extends React.Component {
@@ -9,6 +11,8 @@ class Layout extends React.Component {
     return (
       <div className="layout">
         <Helmet defaultTitle="Blog by AnhTus" />
+        <Link to='/abc'>abc</Link>
+        <div>dadaad</div>
         {children}
       </div>
     )
