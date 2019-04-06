@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 06 Apr 2019 18:09:28 GMT</lastBuildDate><item><title><![CDATA[Customize your terminal with oh my zsh for lazy guys]]></title><description><![CDATA[Making your terminal more beautiful after 4 simple step]]></description><link>https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</guid><pubDate>Fri, 05 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://placehold.it/15/c5f015/000000?text=+&quot; alt=&quot;#c5f015&quot;&gt; ### Step 1: Install ZSH&lt;/p&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 06 Apr 2019 18:21:20 GMT</lastBuildDate><item><title><![CDATA[Customize your terminal with oh my zsh for lazy guys]]></title><description><![CDATA[Making your terminal more beautiful after 4 simple step]]></description><link>https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</guid><pubDate>Fri, 05 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Step 1: Install ZSH&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;ZSH (Z Shell) là một Unix shell cái mà được build on top của bash (shell mặc định của mac)
@@ -9,13 +9,13 @@ và thêm một số tính năng khác&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;brew install zsh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/15/c5f015/000000?text=+&quot; alt=&quot;#c5f015&quot;&gt; ### Step 2: Install Oh My Zsh&lt;/p&gt;
+&lt;h3&gt;Step 2: Install Oh My Zsh&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Oh my Zsh là một framework cho việc quản lí cấu hình zsh. Ở đấy có thể tuỳ chỉnh rất nhiều
 thứ trong đó có theme của terminal&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/15/c5f015/000000?text=+&quot; alt=&quot;#c5f015&quot;&gt; ### Step 3: Install Powerline fonts&lt;/p&gt;
+&lt;h3&gt;Step 3: Install Powerline fonts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Là một bộ font được hỗ trợ các kí tự đặc biệt cho terminal&lt;/li&gt;
 &lt;/ul&gt;
@@ -24,12 +24,12 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/15/c5f015/000000?text=+&quot; alt=&quot;#c5f015&quot;&gt; ### Step 4: Change theme and font &lt;/p&gt;
+&lt;h3&gt;Step 4: Change theme and font&lt;/h3&gt;
 &lt;p&gt;Change theme: mở terminal ở thư mục ~ &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;vim .zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Search từ khoá ZSH&lt;em&gt;THEME=“theme name”, thay thế bằng ZSH&lt;/em&gt;THEME=“default”&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ZSH_THEME=&amp;quot;agnoster&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/15/f03c15/000000?text=+&quot; alt=&quot;#f03c15&quot;&gt; Lưu ý:&lt;/p&gt;
+&lt;p&gt;Lưu ý:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lúc này khi reset terminal theme đã được apply nhưng mà lỗi font :( &lt;/li&gt;
 &lt;li&gt;Có thể thay rất nhiều theme khác nhau, các theme này đã dược define mặc định trong khi
@@ -39,7 +39,42 @@ cài Oh my &lt;/li&gt;
 Open terminal lên &gt; Terminal &gt; Preference &gt; Profile &gt; Font &gt; Change : chọn Rotobo Mono for Powerline
 Thay đổi màu từ mặc định cho hợp với style và cá tính của bạn trong Profile &gt; ANSI color&lt;/p&gt;
 &lt;p&gt;Thế là done rồi :)
-&lt;img src=&quot;./terminal.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Title&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[5 ways to iterate over javascript object]]></title><description><![CDATA[5 ways to iterate over javascript object and compare the performance each other]]></description><link>https://vuanhtu1993.github.io/blog//posts/5-ways-iterate-over-js-object/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/5-ways-iterate-over-js-object/</guid><pubDate>Thu, 04 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Technique 1 : Object.entries&lt;/h2&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/03ad81550aaabead0db3c840b0f05bd0/6ecf4/terminal.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 42.15406562054208%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5klEQVQozz2RW27aQABFWUSbtoCBAMExD2OMgSQk+AXYxg9eRQRI+xepq+gKurJW/a5Ck1TKRk4nVtWPo5n5Obpzb8bptRn0+5jjCf2uzrV4d9oqA02lo7ZQlDoNReHT4cBm+5HNfoe33OH7PsEsZOp5Aj/F8wMyg6ZC+bxOzdtSsRK8sY56nkculSgVJHK5HFnBtRMwnKzQb2aM/YRpvGcmhGEUE8dzgiBkNLLI3LSbnMkykrvlxNqwWJmYF3VaDRW5VkOSJKR8nr5/S3X5jTf2V/zgVTTH8wIhjYiiJL07zpjM1aCHpuucan0q+iXdrkJTKXNarqaygkiZz0sMxzaWY9MxLgiipUiVpIIkWaRS07SxbZeMLL6rNDUq4jxrtGg2ZOqKTKVSpVgsUioVef8hz/6wIg6nNNo9ZqvP7G7vcFyXWRgTCl5lqbBSFmnOZHLGiKxhcnUhiw4LSIVSmi6bzfLu5C12dMeN5aFqXYIwYbldskg2JPNVOsh/oWEYaJqG1mrQFgPVmyKl2kbXOwIdo9tNK5mOfUbDa1qdHnGyZrGOmE3mbJZrsXaEZTkpmZeXF56f/3B8fOTX8cjDP56ennl4OHI8/ub7j5/c338RS0Zcjtx0kDhaMDItbNHja5euO0n5C1JhIECGp5KWAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;terminal&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/03ad81550aaabead0db3c840b0f05bd0/c83f1/terminal.png&quot;
+        srcset=&quot;/blog/static/03ad81550aaabead0db3c840b0f05bd0/569e3/terminal.png 240w,
+/blog/static/03ad81550aaabead0db3c840b0f05bd0/93400/terminal.png 480w,
+/blog/static/03ad81550aaabead0db3c840b0f05bd0/c83f1/terminal.png 960w,
+/blog/static/03ad81550aaabead0db3c840b0f05bd0/23e13/terminal.png 1440w,
+/blog/static/03ad81550aaabead0db3c840b0f05bd0/10d8f/terminal.png 1920w,
+/blog/static/03ad81550aaabead0db3c840b0f05bd0/6ecf4/terminal.png 2804w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[5 ways to iterate over javascript object]]></title><description><![CDATA[5 ways to iterate over javascript object and compare the performance each other]]></description><link>https://vuanhtu1993.github.io/blog//posts/5-ways-iterate-over-js-object/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/5-ways-iterate-over-js-object/</guid><pubDate>Thu, 04 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Technique 1 : Object.entries&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; obj &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   key1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;value1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   key2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;value2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
