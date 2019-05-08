@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 06 Apr 2019 18:21:20 GMT</lastBuildDate><item><title><![CDATA[Customize your terminal with oh my zsh for lazy guys]]></title><description><![CDATA[Making your terminal more beautiful after 4 simple step]]></description><link>https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</guid><pubDate>Fri, 05 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Step 1: Install ZSH&lt;/h3&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 08 May 2019 17:18:14 GMT</lastBuildDate><item><title><![CDATA[3 steps to create React app from nothing]]></title><description><![CDATA[3 steps to create React app from nothing]]></description><link>https://vuanhtu1993.github.io/blog//posts/3-steps-to-create-react-app/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/3-steps-to-create-react-app/</guid><pubDate>Wed, 08 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;3 steps to create React app from nothing&lt;/h3&gt;
+&lt;h4&gt;Step 1. npm init&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Ở bước này ta tạo được một môi trường để quản lí thu viện cũng như source code của dự án&lt;/li&gt;
+&lt;li&gt;Được biết là &lt;code class=&quot;language-text&quot;&gt;React&lt;/code&gt; là một thư viện để tạo giao diện (UI) được chia nhỏ thành các component bằng
+code JS (Dùng JSX để viết giao diện) &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ReactDOM&lt;/code&gt; Là thư viện được tách ra từ &lt;code class=&quot;language-text&quot;&gt;React&lt;/code&gt; core =&gt; mục đích nhằm tách biệt phần tạo giao diện
+với phần giao tiếp với DOM
+&lt;code class=&quot;language-text&quot;&gt;ReactDOM&lt;/code&gt; là lớp liên kết giữa &lt;code class=&quot;language-text&quot;&gt;React&lt;/code&gt; và &lt;code class=&quot;language-text&quot;&gt;DOM&lt;/code&gt;, VD: như muốn hiện thị component React vào một DOM
+nào đó ta dùng&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;ReactDOM&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Hello&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; world&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;root&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;// hoặc để tìm DOM
+ReactDOM.findDOMNode()&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* `React-router-dom` Cơ bản React là thư viện để tạo UI cho ứng dụng nên thực chất nó không 
+có Router, khi đó để có thẻ điều hướng trên một ứng dụng React ta cần dùng thư viện này
+Bài viết chi tiết về `React-router-dom` sẽ được nói trong một bài viết khác
+
+* `webpack`  
+
+#### Step 2. Install `react` `react-dom` `react-router-dom` `webpack`
+* `webpack`: là thư viện để tạo ra bundle file từ các file đầu vào js, css, resource ...
+* `webpack-cli`: Từ bản v4 đươc chia ra từ webpack core, dùng để chạy webpack bằng CLI, phù hợp với 
+production
+* `webpack-dev-server`: thực hiện hot reload khi có bất kì thay đổi nào từ file đầu vào. Phù hợp với
+qúa trình development
+##### Triết lí của webpack.
+1. Mọi thứ đều là module: tất cả các file html, css, js, images... đều được webpack coi là một 
+module. Từ đó hoàn toàn có thể export và import nó ở bất cứ chỗ nào để dùng.
+2. Chỉ load nhưng thứ cần và load khi cần thiết: Khi file bundle trở nên quá lớn thì việc
+client load sẽ trở nên khó khăn và ảnh hưởng đến trải nghiệm. Như vậy webpack có một số
+cơ chế để tách nhỏ file bundle thành nhiều file ứng với mục đích khác nhau.
+
+Link ref source pure react: https://github.com/vuanhtu1993/observation-state&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Customize your terminal with oh my zsh for lazy guys]]></title><description><![CDATA[Making your terminal more beautiful after 4 simple step]]></description><link>https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/customize-terminal-with-oh-my-zsh/</guid><pubDate>Fri, 05 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Step 1: Install ZSH&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;ZSH (Z Shell) là một Unix shell cái mà được build on top của bash (shell mặc định của mac)
