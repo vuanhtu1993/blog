@@ -1,3 +1,16 @@
+---
+title: Create API service for React app
+date: "2019-06-01T00:00:00.000Z"
+layout: post
+draft: false
+path: "/posts/create-api-service-for-react-app/"
+category: "React"
+tags:
+  - "React"
+  - "React-DOM"
+  - "API service"
+description: "How to create API service to manage easily"
+---
 
 ### How to create API service 
 
