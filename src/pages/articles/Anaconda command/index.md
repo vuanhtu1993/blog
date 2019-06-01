@@ -13,7 +13,7 @@ description: "There are some conda command must know"
 ---
 
 ### Anaconda common command  
-1. conda info --envs : lists all environments
+1. conda env list : lists all environments
 2. source activate <env name> : activate an environment
 3. source deactivate: deactivate an environment
 4. conda list : list all packages installed
