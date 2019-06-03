@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by AnhTus]]></title><description><![CDATA[Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
       
       from "Albert Einstein"
-      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 01 Jun 2019 03:46:51 GMT</lastBuildDate><item><title><![CDATA[Create API service for React app]]></title><description><![CDATA[How to create API service to manage easily]]></description><link>https://vuanhtu1993.github.io/blog//posts/create-api-service-for-react-app/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/create-api-service-for-react-app/</guid><pubDate>Sat, 01 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;How to create API service&lt;/h3&gt;
+      ]]></description><link>https://vuanhtu1993.github.io/blog/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Jun 2019 03:42:27 GMT</lastBuildDate><item><title><![CDATA[Create API service for React app]]></title><description><![CDATA[How to create API service to manage easily]]></description><link>https://vuanhtu1993.github.io/blog//posts/create-api-service-for-react-app/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/create-api-service-for-react-app/</guid><pubDate>Sat, 01 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;How to create API service&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Header &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   token&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; LocalStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;token&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -716,7 +716,59 @@ let value = obj[key];
 &lt;li&gt;conda create —name &lt;env name&gt; python=3 astroid babel : create new environment, specify version of python, and install packages&lt;/li&gt;
 &lt;li&gt;WINDOWS NOTE: SOURCE is not recognized. When deactivating and activating in the anaconda command prompt, skip ‘source’ and just type ‘deactivate’ or ‘activate’ depending on what you are trying to do.&lt;/li&gt;
 &lt;li&gt;conda env export &gt; environment.yml: export conda environment requirements list to a file&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Some mongoDB command for beginner]]></title><description><![CDATA[Some useful command to work with mongoDB for beginner, let's get started]]></description><link>https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</guid><pubDate>Fri, 29 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. Log Into MongoDB&lt;/h3&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Apply anaconda env into PyCharm&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mỗi một dự án đều cần được bọc bởi interpreter để lấy các thư viện ra và sử dụng
+từ trong interpreter đó. Nhiệm vụ bây là thay đổi interpreter măc định (môi trường
+máy tính global).&lt;/p&gt;
+&lt;h5&gt;Bước 1: tạo interpreter bằng anaconda&lt;/h5&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Có thể tạo interpreter environment bằng &lt;code class=&quot;language-text&quot;&gt;conda create --name &amp;lt;env name&amp;gt;&lt;/code&gt; hoặc
+tạo bằng GUI của pyCharm&lt;/p&gt;
+&lt;h5&gt;Bước 2: Adđ interpreter vào Project interpreter&lt;/h5&gt;
+&lt;p&gt;a. Project interpreter =&gt; Add interpreter =&gt; Existing Environment
+b. Pick anaconda3/envs/&lt;interpreter name&gt;/bin/python =&gt; Apply
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f5802a90788eff909f8083118cc06167/781e3/interpreter.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.30662020905923%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACQklEQVQoz3VS2XLTQBDUzwQSfIBvSStpddmWb8dxLCcO+JRjuxxI8UJVEhtCBUIKPiB/28yuE+CFh66ZlbQ9Pd1Sqs02ipUqXL8Et1iGabswXB82nQ2TI1tQCRpyAqou+/+B0fdKvXWIdqcLTiS6YaFB5/WHSyyWC0TRDNF8Tjinfo7JZIrReIzxeCKrwHA0xmQ6xXA4QiqVguIFVdQabamQWRy2V8bq8hO+/nzE7cMj7n78wt33e3y7f8Dm8y2ubrZUv+B6s5UQ56ubDTrHIV7FYlCY5RCRLVeVlTuodwfozrZoD68RNHuoN1uoEoT68PQU/cEZjnohumEf4ckAx+GJvCsJDb4jZKKaJlixB7s2BOcaeWjA4Db8UgC/XIZDtkznEVYX7xEtlpjMIqorjKKl3C6RSEAxbWcXBN8p5H4NXtCBTgYL9Q5ZUak3JSzHg2ZwuDSgSjYJMSqzJAq6gXg8DkWjIPIao0AMAiMSjxIOJPkf9c89DdGYIdXWmw2yhz/BpkEmEskklMHbd1itL1AJlyj1lmgctiSp8USyI91V3bSQc/twOms0Bh+RL06gBnPofpcGMWTzBSi6zpBOp5FMZRFPpugheWeXoEtljiR+VihsUA0XbtDEUf8MTqkOnRfJf4/WNncrpzMZvNjbw8HBPvZf7uH1myxMp0yh2LCEOom/hDqtJlZutFuwXY98deW7gqYjJlJWqRGkmWwOKVKaVxm4XYRHJM4/HgqIH1+ASWILFgVqeQFyvIY8Kc/kcvgNp2GT+kANeOQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;interpreter&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/f5802a90788eff909f8083118cc06167/c83f1/interpreter.png&quot;
+        srcset=&quot;/blog/static/f5802a90788eff909f8083118cc06167/569e3/interpreter.png 240w,
+/blog/static/f5802a90788eff909f8083118cc06167/93400/interpreter.png 480w,
+/blog/static/f5802a90788eff909f8083118cc06167/c83f1/interpreter.png 960w,
+/blog/static/f5802a90788eff909f8083118cc06167/23e13/interpreter.png 1440w,
+/blog/static/f5802a90788eff909f8083118cc06167/10d8f/interpreter.png 1920w,
+/blog/static/f5802a90788eff909f8083118cc06167/781e3/interpreter.png 2870w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Some mongoDB command for beginner]]></title><description><![CDATA[Some useful command to work with mongoDB for beginner, let's get started]]></description><link>https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</link><guid isPermaLink="false">https://vuanhtu1993.github.io/blog//posts/mongo-command-beginner/</guid><pubDate>Fri, 29 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;1. Log Into MongoDB&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mongo -u &amp;lt;username&amp;gt; -p &amp;lt;password&amp;gt; --authenticationDatabase &amp;lt;dbname&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Câu lệnh được sử dụng để xác thực vào db ở local&lt;/p&gt;
 &lt;h3&gt;2. Show All Databases&lt;/h3&gt;
