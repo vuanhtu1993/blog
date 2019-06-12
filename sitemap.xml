@@ -32,8 +32,6 @@
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/create-custom-react-component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/component/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/refs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/understanding-react-refs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/forward-refs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/observation-state-management-solution/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/state-management/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/observation-state/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -44,6 +42,8 @@
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/machine-learning/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/tensor-flow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/anaconda/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/posts/understanding-react-refs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/forward-refs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vuanhtu1993.github.io/blog//blog/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
