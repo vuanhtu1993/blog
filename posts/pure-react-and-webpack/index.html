@@ -1,0 +1,254 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/blog/component---src-templates-post-template-jsx.ae6844d027271e0d4807.css">/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 2.5rem}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 .125rem;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}html{font-size:100}body{color:#222;line-height:1.625;font-size:1rem;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body,h1,h2,h3,h4,h5,h6{font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-weight:500}h1{font-size:2.5rem;line-height:3.25rem;margin-top:6.5rem;margin-bottom:1.625rem}h2{font-size:1.6875rem;line-height:2.4375rem}h2,h3{margin-top:3.25rem;margin-bottom:.8125rem}h3{font-size:1.375rem;line-height:1.625rem}h4{font-size:1.2rem;margin-top:2.4375rem}h4,h5{line-height:1.625rem;margin-bottom:.8125rem}h5,h6{font-size:1rem;margin-top:4.0625rem}h6{line-height:1.625rem;margin-bottom:.8125rem}img{max-width:100%;margin:inherit auto}hr,img{border:0;display:block}hr{color:#222;height:26px;margin:3.25rem auto;background-size:100% 26px;background-image:linear-gradient(180deg,transparent 1px,transparent 11px,#222 0,#222 15px,transparent 0,transparent 26px);width:6.25rem}a{color:#5d93ff;text-decoration:none}a:active,a:focus,a:hover{color:#f7a046}b,strong{font-weight:500}ul{list-style:square;margin-bottom:1.625rem}ul li{padding:0 .3125rem;margin-bottom:.625rem}p{line-height:1.625rem;margin-bottom:1.625rem}blockquote{padding:0;font-style:italic;text-align:center}figure{display:block;width:100%;height:auto}figcaption{line-height:1.21875rem;margin-top:.40625rem;color:#222;font-size:.875rem;font-style:italic;margin-bottom:0;text-align:center}.layout{max-width:66.875rem;margin-left:auto;margin-right:auto}.layout:after,.layout:before{content:"";display:table}.layout:after{clear:both}.content__inner{padding:1.5625rem 1.25rem}@media screen and (min-width:685px){figure.float-left,figure.float-right{max-width:19.375rem;padding:0 1.625rem}.float-right{float:right}.float-left{float:left}.content{width:calc(58.275% - .78125rem)}.content:nth-child(1n){float:left;margin-right:1.875rem;clear:none}.content:last-child{margin-right:0}.content:nth-child(12n){margin-right:0;float:right}.content:nth-child(12n+1){clear:both}.content__inner{padding:1.875rem 1.25rem}}@media screen and (min-width:960px){.content{width:calc(66.6% - .625rem)}.content:nth-child(1n){float:left;margin-right:1.875rem;clear:none}.content:last-child{margin-right:0}.content:nth-child(3n){margin-right:0;float:right}.content:nth-child(3n+1){clear:both}.content__inner{padding:2.5rem 2.1875rem}}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a67f59;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.tags__list-item-link{color:#222}.tags__list-item-link:focus,.tags__list-item-link:hover{color:#5d93ff;border-bottom:1px solid #5d93ff}.categories__list-item-link{color:#222}.categories__list-item-link:focus,.categories__list-item-link:hover{color:#5d93ff;border-bottom:1px solid #5d93ff}.post-single__inner{max-width:59.0625rem;padding:0 .9375rem;margin:0 auto}.post-single__title{font-size:2rem;max-width:40rem;font-weight:600;text-align:center;line-height:2.68125rem;margin:1.625rem auto 0}.post-single__body figure{margin-bottom:1.625rem}.post-single__body figure blockquote{font-style:italic;text-align:center;margin-top:0;padding:1.625rem 0}.post-single__body figure blockquote p{max-width:40rem;font-size:1.6817rem;margin-top:0;margin-bottom:1.625rem;line-height:2.4375rem}.post-single__body a{text-decoration:underline}.post-single__body .gatsby-highlight{max-width:40rem;margin-left:.9375rem;margin-right:.9375rem;margin-bottom:1.625rem}.post-single__body :not(div){max-width:40rem;margin-left:auto;margin-right:auto}.post-single__footer{max-width:40rem;line-height:1.625rem;margin:1.625rem .9375rem 3.25rem}.post-single__footer-text a{text-decoration:underline}.post-single__date{max-width:40rem;margin-left:auto;margin-right:auto}.post-single__tags{margin-bottom:.8125rem}.post-single__tags-list{list-style:none;margin:0 -.3125rem;padding:0}.post-single__tags-list-item{display:inline-block;margin:.625rem .3125rem}.post-single__tags-list-item-link{background:#ebebeb;text-decoration:none;border:0;border-radius:.1875rem;color:#555;line-height:1.625;padding:.5rem 1rem}.post-single__tags-list-item-link:focus,.post-single__tags-list-item-link:hover{color:#222;background:#dfdfdf;border:0}.post-single__home-button{display:block;margin-left:auto;margin-right:auto;max-width:5.625rem;font-size:1rem;padding:0 1rem;height:35px;line-height:2.1875rem;text-align:center;color:#555;background:#ebebeb;font-weight:400;border-radius:.1875rem;margin-top:1.625rem}.post-single__home-button:focus,.post-single__home-button:hover{color:#222;background:#dfdfdf;border:0}@media screen and (min-width:685px){.post-single__body .gatsby-highlight,.post-single__footer{margin-left:auto;margin-right:auto}}@media screen and (min-width:960px){.post-single__inner{padding:0}.post-single__title{font-size:3rem;line-height:3.65625rem;margin-top:3.65625rem;margin-bottom:2.4375rem}.post-single__body,.post-single__body p{font-size:1.125rem;line-height:1.82813rem;margin-bottom:1.82813rem}.post-single__home-button{position:fixed;max-width:auto;margin:0;top:30px;left:30px}}</style><meta name="generator" content="Gatsby 2.0.78"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet"/><link rel="sitemap" type="application/xml" href="/blog/sitemap.xml"/><title data-react-helmet="true">Build a pure react app from nothing to understanding webpack - Blog by AnhTus</title><meta data-react-helmet="true" name="description" content="Build a react app from nothing without create-react-app. Good for the guys want to understanding "/><link as="script" rel="preload" href="/blog/component---src-templates-post-template-jsx-5e8836b8372482c00ace.js"/><link as="script" rel="preload" href="/blog/app-a1eb35dcfa467850ea77.js"/><link as="script" rel="preload" href="/blog/3-e46ddceed530e2548735.js"/><link as="script" rel="preload" href="/blog/0-df783419e7299b1afa44.js"/><link as="script" rel="preload" href="/blog/webpack-runtime-2afb235feb474c3fe119.js"/><link as="fetch" rel="preload" href="/blog/static/d/900/path---posts-pure-react-and-webpack-25-c-93b-x4p1DBSbjTHnYq4ZNeYR21WjNw.json" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="layout"><div><div><div><a class="post-single__home-button" href="/blog/">All Articles</a></div><div class="post-single"><div class="post-single__inner"><h1 class="post-single__title">Build a pure react app from nothing to understanding webpack</h1><div class="post-single__body"><h2>Webpack là gì ?</h2>
+<ul>
+<li>
+<p>Chắc hẳn bạn là người mới làm quen với front-end sử dụng các library hoặc framework js sẽ thường có các câu hỏi
+như là nó để làm gì, taị sao phải phức tạp nó đến như thế…</p>
+</li>
+<li>
+<p>Definition 1: <code class="language-text">Webpack</code> là một <code class="language-text">module loader</code> cho javascript</p>
+</li>
+<li>
+<p>Definition 2: <code class="language-text">module loader</code> là một công cụ để quản lí <code class="language-text">import</code> của các thư viện js, merge chúng tại với nhau
+để tạo ra một hoặc một vài file bundle</p>
+<ul>
+<li>Tại sao lại cần dùng module loader: Hiện tại thế giới front-end không giống như là HTML, CSS, JQuery là
+cân được thế giới như ngày xưa nữa. Khi thực hiện một dự án React, Vue hay Angular chúng ta phải sử dụng
+rất nhiều các thư viện khác mà cứ để vào thẻ <code class="language-text">&lt;script/&gt;</code> như trước chắc chắn là ko ổn cũng như hiệu năng<br>
+bị hạn chế => Module loader ra đời</li>
+</ul>
+</li>
+<li>
+<p>Definition 3: <code class="language-text">Loader</code> nà gì?. Là những thư viện mà webpack cho phép can thiệp trước khi <code class="language-text">import</code> files.
+Cho phép không chỉ bundle js files mà cả nhưng static như css, image … (Vậy nghĩa là muốn bundle cái gì
+thì làm ơn install loader cái đấy vào nhá)
+VD một số Loader: <code class="language-text">style-loader</code>, <code class="language-text">babel-loader</code> max phổ biến <code class="language-text">file-loader</code>…</p>
+</li>
+<li>
+<p>babel-loader: làm nhiệm vụ transpile ES6 -> ES5 vậy muốn bundle js thì cho web hiểu thì cần babel-loader
+chạy trước webpack (giờ còn ai không viết es6 nữa giơ tay nào để bỏ bố cái thằng này đi)</p>
+</li>
+<li>
+<p>style-loader: Như đã nói ở phần định nghĩa loader, style loader là một thư viện nhằm nâng cao khả năng của
+webpack không chỉ bundle js mà còn bundle cả style (đơn giản là nhét vào thẻ s)</p>
+</li>
+<li>
+<p>file-loader: tượng tự như style-loader, nhưng là để bundle static file</p>
+</li>
+<li>
+<p>Sass/scss-loader: Lại là một thư viện dể tiền sử lí trước style-loader</p>
+<ul>
+<li>sass-loader transforms Sass thành CSS.</li>
+<li>css-loader parses CSS vào JavaScript và resolve dependencies.</li>
+<li>style-loader chèn CSS vào bên trong thẻ <style></li>
+</ul>
+</li>
+</ul>
+<h4>Sau khi ôn lại một ít kiến thức về webpack thì đến kiến thưc chính nhé ! 2 năm đọc lại méo hiểu gì</h4>
+<h4><em>Hà nội ngày 25/06/2021</em></h4>
+<h3>Installation</h3>
+<ol>
+<li>
+<p>Install React, Webpack, and Babel</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">npm install react react-dom
+npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core babel-loader @babel/preset-env @babel/preset-react</code></pre></div>
+<h4>Here’s what each package does:</h4>
+</li>
+<li>
+<p><strong>react</strong>: UI library for creating modular components</p>
+</li>
+<li>
+<p><strong>react-dom</strong>: enables us to render the React within the browser DOM</p>
+</li>
+<li>
+<p><strong>webpack</strong>:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">Module bundler - là công cụ để build các module trong javascript
+**Quan trọng** Công việc cốt lõi là merge tất cả các file js thành 1 file
+**Module** là một khái niệm trong NodeJS (không có trong các browser thông thường) 
+**Create module** sử dụng module.export = object
+**Load module** sử dụng required để load file</code></pre></div>
+</li>
+<li>
+<p><strong>webpack-cli</strong>: allows webpack to work with CLI commands</p>
+</li>
+<li>
+<p><strong>webpack-dev-server</strong>: transforms our source code and serves it on a web server as we develop it continuously. This helps use see the output of your code in the browser.</p>
+</li>
+<li>
+<p><strong>html-webpack-plugin</strong>: an extension to webpack that adds the basic index html file</p>
+</li>
+<li>
+<p><strong>@babel/core</strong>: a JavaScript transpiler to converts modern JavaScript into a production-ready version that’s compatible with all browsers.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**Quan trong** Babel là Javasccript Transpiler dùng để chuyển đổi code JS (không bao gồm scss, css ...) phiên bản mới thành JS phiên bản cũ</code></pre></div>
+</li>
+<li>
+<p><strong>babel-loader</strong>: connects Babel to webpack’s build process</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**Quan trọng** Loader là cầu nối để nối babel, css, scss, asset vào với Webpack. Méo hiểu sao phức tạp vc</code></pre></div>
+</li>
+<li>
+<p><strong>@babel/preset-env</strong>: group of commonly used Babel plugins bundled into a preset that converts modern JavaScript features into widely compatible syntax</p>
+</li>
+<li>
+<p><strong>@babel/preset-react</strong>: React-specific Babel plugins that convert JSX syntax into plain old JavaScript that browsers can understand</p>
+</li>
+</ol>
+<p>Quick note: —save-dev flag is for partitioning the dependencies into development-specific dependencies, so that they are not included in the production JavaScript bundle</p>
+<ol start="2">
+<li>
+<p>Create the files</p>
+</li>
+</ol>
+<p><em>Copy and paste the following code into each file:</em></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">touch webpack.config.js
+mkdir src
+cd src
+touch index.js
+touch index.html</code></pre></div>
+<p><em>webpack.config.js</em></p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'html-webpack-plugin'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// the output bundle won't be optimized for production but suitable for development</span>
+  mode<span class="token punctuation">:</span> <span class="token string">'development'</span><span class="token punctuation">,</span>
+  <span class="token comment">// the app entry point is /src/index.js</span>
+  entry<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'src'</span><span class="token punctuation">,</span> <span class="token string">'index.js'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  output<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  	<span class="token comment">// the output of the webpack build will be in /dist directory</span>
+    path<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'dist'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token comment">// the filename of the JS bundle will be bundle.js</span>
+    filename<span class="token punctuation">:</span> <span class="token string">'bundle.js'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  module<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    rules<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+      	<span class="token comment">// for any file with a suffix of js or jsx</span>
+        test<span class="token punctuation">:</span> <span class="token regex">/\.jsx?$/</span><span class="token punctuation">,</span>
+        <span class="token comment">// ignore transpiling JavaScript from node_modules as it should be that state</span>
+        exclude<span class="token punctuation">:</span> <span class="token regex">/node_modules/</span><span class="token punctuation">,</span>
+        <span class="token comment">// use the babel-loader for transpiling JavaScript to a suitable format</span>
+        loader<span class="token punctuation">:</span> <span class="token string">'babel-loader'</span><span class="token punctuation">,</span>
+        options<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token comment">// attach the presets to the loader (most projects use .babelrc file instead)</span>
+          presets<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">"@babel/preset-env"</span><span class="token punctuation">,</span> <span class="token string">"@babel/preset-react"</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// add a custom index.html as the template</span>
+  plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span> template<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'src'</span><span class="token punctuation">,</span> <span class="token string">'index.html'</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p><em>src/index.js</em></p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">'react-dom'</span><span class="token punctuation">;</span>
+
+ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App<span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">,</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p><em>src/index.html - bundle.js được config ở bên trong webpack.config.js</em></p>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Hello world App<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>root<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>bundle.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre></div>
+<ol start="3">
+<li>
+<p>Config trong package.json</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+<span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"test"</span><span class="token punctuation">,</span>
+<span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+<span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+<span class="token property">"main"</span><span class="token operator">:</span> <span class="token string">"index.js"</span><span class="token punctuation">,</span>
+<span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">"start"</span><span class="token operator">:</span> <span class="token string">"webpack-dev-server --open"</span><span class="token punctuation">,</span>
+<span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"webpack"</span><span class="token punctuation">,</span>
+<span class="token property">"dev"</span><span class="token operator">:</span> <span class="token string">"webpack serve --config webpack.config.js --progress"</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">"keywords"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+<span class="token property">"license"</span><span class="token operator">:</span> <span class="token string">"ISC"</span><span class="token punctuation">,</span>
+<span class="token property">"dependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">"react"</span><span class="token operator">:</span> <span class="token string">"^17.0.2"</span><span class="token punctuation">,</span>
+<span class="token property">"react-dom"</span><span class="token operator">:</span> <span class="token string">"^17.0.2"</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">"devDependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">"@babel/core"</span><span class="token operator">:</span> <span class="token string">"^7.14.6"</span><span class="token punctuation">,</span>
+<span class="token property">"@babel/preset-env"</span><span class="token operator">:</span> <span class="token string">"^7.14.7"</span><span class="token punctuation">,</span>
+<span class="token property">"@babel/preset-react"</span><span class="token operator">:</span> <span class="token string">"^7.14.5"</span><span class="token punctuation">,</span>
+<span class="token property">"babel-loader"</span><span class="token operator">:</span> <span class="token string">"^8.2.2"</span><span class="token punctuation">,</span>
+<span class="token property">"html-webpack-plugin"</span><span class="token operator">:</span> <span class="token string">"^5.3.2"</span><span class="token punctuation">,</span>
+<span class="token property">"webpack"</span><span class="token operator">:</span> <span class="token string">"^5.40.0"</span><span class="token punctuation">,</span>
+<span class="token property">"webpack-cli"</span><span class="token operator">:</span> <span class="token string">"^4.7.2"</span><span class="token punctuation">,</span>
+<span class="token property">"webpack-dev-server"</span><span class="token operator">:</span> <span class="token string">"^3.11.2"</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><strong>Đến thời điểm này đã có thể run được project <em>so happy :)</em></strong></p>
+</li>
+<li>
+<p>Config scss - Chắc không thanh niên nào muốn code css 1 dự án lớn đâu</p>
+</li>
+</ol>
+<p><strong><em>Đù mé vẫn chưa xong à, nhiều vc lần 2</em></strong></p>
+<blockquote>
+<p>Vậy là đã hiểu Webpack để bundle các module thành 1 file để có để deploy,
+babel transpile code ES mới thành js version cũ
+loader là cầu nối giữa babel, scss, css, asset (thông qua import nhá) với webpack rồi nhá !!! Cố hiểu đi ae
+=> Tức là cứ có chữ import là webpack vào việc chẳng cần biết import cái gì (scss, css, image, js …)</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">**Tư duy** scss chắc chắn thuộc nhóm loader rồi search tiếp nào - ơn giời xong sass loader có config webpack luôn
+
+npm install sass-loader sass --save-dev</code></pre></div>
+<h4><em>Hà nội 28/06/2021</em></h4>
+<blockquote>
+<p>Nhận ra rằng làm việc khó trong 1 lúc một chốc 1 lát là rất không hiệu quả
+công việc thường xuyên xảy ra lỗi, nôn nóng => Không tìm được phương án tốt
+nhất mà chỉ muốn làm sao để cho xong</p>
+</blockquote>
+<p>Tiếp nhé ae !!! - Sau khi cài đặt sass và sass-loader cần phải apply vào trong config của webpack</p>
+<p><span style="color:red"><em>Quan trọng</em>:</span> Các loader đều được khai báo trong module (Mỗi rules là một loader).</p>
+<p>Lúc này file webpack.config.js => module sẽ như thế này</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">module<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    rules<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token comment">// for any file with a suffix of js or jsx</span>
+        test<span class="token punctuation">:</span> <span class="token regex">/\.jsx?$/</span><span class="token punctuation">,</span>
+        <span class="token comment">// ignore transpiling JavaScript from node_modules as it should be that state</span>
+        exclude<span class="token punctuation">:</span> <span class="token regex">/node_modules/</span><span class="token punctuation">,</span>
+        <span class="token comment">// use the babel-loader for transpiling JavaScript to a suitable format</span>
+        loader<span class="token punctuation">:</span> <span class="token string">'babel-loader'</span><span class="token punctuation">,</span>
+        options<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token comment">// attach the presets to the loader (most projects use .babelrc file instead)</span>
+          presets<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">"@babel/preset-env"</span><span class="token punctuation">,</span> <span class="token string">"@babel/preset-react"</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        test<span class="token punctuation">:</span> <span class="token regex">/\.s[ac]ss$/i</span><span class="token punctuation">,</span>
+        use<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token comment">// Creates `style` nodes from JS strings</span>
+          <span class="token string">"style-loader"</span><span class="token punctuation">,</span>
+          <span class="token comment">// Translates CSS into CommonJS</span>
+          <span class="token string">"css-loader"</span><span class="token punctuation">,</span>
+          <span class="token comment">// Compiles Sass to CSS</span>
+          <span class="token string">"sass-loader"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span></code></pre></div>
+<p>{“mode”:“full”,“isActive”:false}</p></div><div class="post-single__date"><em>Published <!-- -->13 Jul 2021</em></div></div><div class="post-single__footer"><div class="post-single__tags"><ul class="post-single__tags-list"><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/react/">React</a></li><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/web-development/">Web Development</a></li><li class="post-single__tags-list-item"><a class="post-single__tags-list-item-link" href="/blog/tags/webpack/">Webpack</a></li></ul></div><hr/><p class="post-single__footer-text">Imagination more important than knowledge. Knowledge is limited. Imagination encircles the world
+      
+      from &quot;Albert Einstein&quot;
+      <a href="https://github.com/vuanhtu1993" target="_blank" rel="noopener noreferrer"><br/> <strong>Vu Anh Tu</strong> on Github</a></p><div><div><div id="disqus_thread"></div></div></div></div></div></div></div></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-73379983-2', 'auto', {});
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-post-template-jsx","jsonName":"posts-pure-react-and-webpack-25c","path":"/posts/pure-react-and-webpack/"};window.dataPath="900/path---posts-pure-react-and-webpack-25-c-93b-x4p1DBSbjTHnYq4ZNeYR21WjNw";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-a1eb35dcfa467850ea77.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-cf314d16f68ddd8e82ad.js"],"component---src-templates-post-template-jsx":["/component---src-templates-post-template-jsx.ae6844d027271e0d4807.css","/component---src-templates-post-template-jsx-5e8836b8372482c00ace.js"],"component---src-templates-tag-template-jsx":["/component---src-templates-tag-template-jsx.cc7a98d1e2274506d081.css","/component---src-templates-tag-template-jsx-7b932d4244fd42af2fe7.js"],"component---src-templates-category-template-jsx":["/component---src-templates-category-template-jsx.cc7a98d1e2274506d081.css","/component---src-templates-category-template-jsx-6b9289edb29eff475f3b.js"],"component---src-templates-page-template-jsx":["/component---src-templates-page-template-jsx.9197ae8e172ca69c580f.css","/component---src-templates-page-template-jsx-0da04fa75e99d758f1a4.js"],"component---src-pages-404-jsx":["/component---src-pages-404-jsx-4b98d6662bbc0cfa352b.js"],"component---src-pages-categories-jsx":["/component---src-pages-categories-jsx-a7f3e83defbdc34493c9.js"],"component---src-pages-index-jsx":["/component---src-pages-index-jsx.cc7a98d1e2274506d081.css","/component---src-pages-index-jsx-e77a20bf7616f0a058b8.js"],"component---src-pages-tags-jsx":["/component---src-pages-tags-jsx-d599fda71921e9963dff.js"],"pages-manifest":["/pages-manifest-5151ddd3e28795af7546.js"]};/*]]>*/</script><script src="/blog/webpack-runtime-2afb235feb474c3fe119.js" async=""></script><script src="/blog/0-df783419e7299b1afa44.js" async=""></script><script src="/blog/3-e46ddceed530e2548735.js" async=""></script><script src="/blog/app-a1eb35dcfa467850ea77.js" async=""></script><script src="/blog/component---src-templates-post-template-jsx-5e8836b8372482c00ace.js" async=""></script></body></html>
